@@ -1,0 +1,14 @@
+<form [formGroup]="form">
+  <div>
+    <label>Comment:</label>
+    <input class="form-control" formControlName="comment">
+  </div>
+  <div>
+    <label>Description:</label>
+    <input class="form-control" formControlName="description">
+  </div>
+  <div>
+    <button routerLink="/form">First Component</button>
+    <button routerLink="/form/second">Second Component</button>
+  </div>
+</form>
